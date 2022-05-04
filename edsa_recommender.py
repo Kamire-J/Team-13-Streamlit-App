@@ -205,7 +205,7 @@ def main():
                     Interestingly, movie data can be used to infer so much about movie popularity, behavior of movie lovers and the likelihood of one rating a movie after watching.")
 
         if st.checkbox("Ratings Per Year"):
-            st.image("resources/imgs/ratings_by_year.png")
+            st.image("resources/imgs/ratings_by_year.PNG")
             st.write("A substantial increase in movie ratings from 1995 to 1997 before dipping in 1998. The year 2000 and 2015 had some of the \
                 highest number of ratings. It might be attributed to the release of very good movies and advancements in technology. Technology\
                     increases the reach and quality of movies. Recommender systems are a form of technology that are meant to make it easy for users\
