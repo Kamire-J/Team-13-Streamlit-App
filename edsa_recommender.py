@@ -197,8 +197,8 @@ def main():
         # Ratings Frequency Per Year (Past 25 Years)
         if st.checkbox("Frequency of Ratings Per Year"):
             st.image("resources/imgs/dst.png")
-            st.image("resources/imgs/dst1.PNG")
-            st.image("resources/imgs/dst2.PNG")
+            st.image("resources/imgs/dst1.png")
+            st.image("resources/imgs/dst2.png")
             st.write("From 1995-2019,the most common rating is 4.0, which might mean only the users who loved the movie are likely to leave a rating.\
             The period between 1995 and 1999 did no have a very high number of ratings and a rating of 3.0 was the most popular.\
                 The patterns in ratings in all the periods indicated in the graphs can be used to explain about patterns in movie development and user preferences.\
