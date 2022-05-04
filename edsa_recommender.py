@@ -30,7 +30,7 @@ from sklearn.decomposition import TruncatedSVD
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_pandas_profiling import st_profile_report
-import sweetviz as sv
+#import sweetviz as sv
 
 # Data handling dependencies
 import pandas as pd
@@ -89,7 +89,7 @@ def main():
 
     # DO NOT REMOVE the 'Recommender System' option below, however,
     # you are welcome to add more options to enrich your app.
-    page_options = ["About Us", "Recommender System", "Data Overview", "Sweetviz",
+    page_options = ["About Us", "Recommender System", "Data Overview",
                     "Exploratory Data Analysis", "Solution Overview", "Slides"]
 
     # -------------------------------------------------------------------
@@ -161,21 +161,21 @@ def main():
         pass
 # ----------------------------|SweetViz Report----------------------
 
-    if page_selection == "Sweetviz":
-        st.markdown(sweet, unsafe_allow_html=True)
-        data_source = st.radio("Select Data Source",
-                               ("movies data", "ratings data"))
-        if data_source == "movies_data":
-            data_file = "resources/data/movies.csv"
-        else:
-            data_file = "resources/data/ratings.csv"
-        if data_file is not None:
-            df2 = pd.read_csv(data_file)
-            st.dataframe(df2.head())
-        if st.button("Generate SweetViz Report"):
-            report = sv.analyze(df2)
-            report.show_html()
-            display_sweetviz("SWEETVIZ_REPORT.html")
+    # if page_selection == "Sweetviz":
+    #     st.markdown(sweet, unsafe_allow_html=True)
+    #     data_source = st.radio("Select Data Source",
+    #                            ("movies data", "ratings data"))
+    #     if data_source == "movies_data":
+    #         data_file = "resources/data/movies.csv"
+    #     else:
+    #         data_file = "resources/data/ratings.csv"
+    #     if data_file is not None:
+    #         df2 = pd.read_csv(data_file)
+    #         st.dataframe(df2.head())
+    #     if st.button("Generate SweetViz Report"):
+    #         report = sv.analyze(df2)
+    #         report.show_html()
+    #         display_sweetviz("SWEETVIZ_REPORT.html")
 
 # --------------------------------------------------------------------------
 # ----------------------------Exploratory Data Analysis---------------------
