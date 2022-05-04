@@ -1,0 +1,15 @@
+
+Notebook/.DS_Store
+Notebook/.ipynb_checkpoints/recommender_model-checkpoint.ipynb
+Notebook/data/genome_scores.csv
+Notebook/data/genome_tags.csv
+Notebook/data/imdb_data.csv
+Notebook/data/links.csv
+Notebook/data/movies.csv
+Notebook/data/sample_submission.csv
+Notebook/data/tags.csv
+Notebook/data/test.csv
+Notebook/data/train.csv
+Notebook/edsa-movie-recommendation-2022.zip
+Notebook/recommender_model.ipynb
+README 2.md
