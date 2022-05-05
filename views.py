@@ -233,65 +233,45 @@ team = """
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Ola" style="width:100%">
       <div class="container">
         <h2>Olanidotun Jonibola</h2>
         <p class="title">Team Lead</p>
-        <p>Experienced in handling Data Science Projects.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Khoele" style="width:100%">
       <div class="container">
         <h2>Joshua Khoele</h2>
         <p class="title">Senior Data Analyst</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="Gadvin" style="width:100%">
       <div class="container">
         <h2>Gadvin Gitamo</h2>
         <p class="title">Senior Data Engineer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Hunadi" style="width:100%">
       <div class="container">
         <h2>Hunadi Mawela</h2>
         <p class="title">Senior Web Developer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="https://drive.google.com/file/d/1PHu4Cg4oLDCJL4qnoysCqrdplHoMVUPn/view?usp=sharing" alt="Jack" style="width:100%">
       <div class="container">
         <h2>Jack Kamire</h2>
         <p class="title">Senior Modelling Engineer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
