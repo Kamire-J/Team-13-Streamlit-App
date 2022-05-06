@@ -13,3 +13,4 @@ Notebook/data/train.csv
 Notebook/edsa-movie-recommendation-2022.zip
 Notebook/recommender_model.ipynb
 README 2.md
+*.pkl

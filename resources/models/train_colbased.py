@@ -17,7 +17,7 @@ import pickle
 
 # Importing datasets
 <<<<<<< HEAD
-ratings = pd.read_csv('/Users/jack/Documents/GitHub/unsupervised-predict-streamlit-template/resources/data/ratings.csv')
+ratings = pd.read_csv('resources/data/ratings.csv')
 =======
 ratings = pd.read_csv('ratings.csv')
 >>>>>>> parent of c46fbb5 (minor additions)
